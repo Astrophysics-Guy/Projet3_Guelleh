@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/20489908/border-radius-and-shadow-on-imageview
