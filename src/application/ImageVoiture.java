@@ -1,7 +1,7 @@
 package application;
 
 /**
- * 
+ *
  * @author MH.Guelleh
  *
  */
@@ -9,7 +9,7 @@ public class ImageVoiture {
 	private String strNomFichier, strTypeAuto, strOrientation, strCouleur;
 
 	/**
-	 * 
+	 *
 	 * @param strTypeAuto
 	 * @param strOrientation
 	 * @param strCouleur
@@ -29,7 +29,7 @@ public class ImageVoiture {
 		return "AutoImage [strTypeAuto=" + strTypeAuto + ", strOrientation=" + strOrientation + ", strCouleur="
 				+ strCouleur + "]";
 	}
-	
+
 	/**
 	 * @return the strTypeAuto
 	 */
@@ -80,5 +80,5 @@ public class ImageVoiture {
 	 */
 	public void setStrCouleur(String strCouleur) {
 		this.strCouleur = strCouleur;
-	} 
+	}
 }

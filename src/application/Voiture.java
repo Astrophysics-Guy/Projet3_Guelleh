@@ -1,7 +1,7 @@
 package application;
 
 /**
- * 
+ *
  * @author MH.Guelleh
  *
  */
@@ -9,7 +9,7 @@ public class Voiture {
 	private String strCouleur, strPosX, strPosY, strLongueur, strOrientation;
 
 	/**
-	 * 
+	 *
 	 * @param strCouleur
 	 * @param strLongueur
 	 * @param strPosX

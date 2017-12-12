@@ -8,9 +8,9 @@ public class Configuration {
 	private Voiture voitureDeplace;
 	private int intDeplacement;
 	private Configuration configurationPrecedente;
-	
+
 	public Configuration(int[][] intGrille, ArrayList<Voiture> arrVoitures, Voiture voitureDeplace, int intDeplacement,
-			Configuration configurationPrecedente) {
+						 Configuration configurationPrecedente) {
 		this.intGrille = intGrille;
 		this.arrVoitures = arrVoitures;
 		this.voitureDeplace = voitureDeplace;
@@ -86,5 +86,5 @@ public class Configuration {
 	 */
 	public void setConfigurationPrecedente(Configuration configurationPrecedente) {
 		this.configurationPrecedente = configurationPrecedente;
-	} 
+	}
 }
