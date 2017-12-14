@@ -1,6 +1,7 @@
 package application;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Configuration {
 	private int[][] intGrille = new int[6][6];
@@ -16,6 +17,24 @@ public class Configuration {
 		this.voitureDeplace = voitureDeplace;
 		this.intDeplacement = intDeplacement;
 		this.configurationPrecedente = configurationPrecedente;
+	}
+	public Configuration(Configuration configuration) {
+		this.intGrille = configuration.getIntGrille();
+		this.arrVoitures = configuration.getArrVoitures();
+		this.voitureDeplace = configuration.getVoitureDeplace();
+		this.intDeplacement = configuration.getIntDeplacement();
+		this.configurationPrecedente = configuration.getConfigurationPrecedente();
+	}
+
+	@Override
+	public String toString() {
+		return "Configuration{" +
+				"intGrille=" + Arrays.toString(intGrille) +
+				", arrVoitures=" + arrVoitures +
+				", voitureDeplace=" + voitureDeplace +
+				", intDeplacement=" + intDeplacement +
+				", configurationPrecedente=" + configurationPrecedente +
+				'}';
 	}
 
 	/**

@@ -38,8 +38,7 @@ public class MenuPrincipal extends Application {
 	private final String strPath = "Donnees" + System.getProperty("file.separator");
 	private final String[] strFichiers = {strPath + "f1.txt", strPath + "f2.txt", strPath + "f3.txt"};
 
-	private ArrayList<Voiture> arrVoituresFacile = new ArrayList<>(), arrVoituresMoyen = new ArrayList<>(),
-			arrVoituresDiff = new ArrayList<>();
+	private ArrayList<Voiture> arrVoituresFacile, arrVoituresMoyen, arrVoituresDiff;
 
 	private ArrayList<ImageVoiture> arrImageVoitures = new ArrayList<>();
 
@@ -51,6 +50,10 @@ public class MenuPrincipal extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+			arrVoituresFacile = new ArrayList<>();
+			arrVoituresMoyen = new ArrayList<>();
+			arrVoituresDiff = new ArrayList<>();
+
 			stage = primaryStage;
 
 			for (int i = 0; i < strFichiers.length; i++) lireFichierText(i);
@@ -267,14 +270,15 @@ public class MenuPrincipal extends Application {
 			if (event.getSource() instanceof ImageView) strID = ((ImageView) event.getSource()).getId();
 			else if (event.getSource() instanceof Button) strID = ((Button) event.getSource()).getId();
 
-			new MenuJeu(stage, Integer.parseInt(strID), imageViewsLogoGrille, arrVoituresFacile, arrImageVoitures).show();
+			new MenuJeu(((strID.equals("1")) ? "Facile" :
+					((strID.equals("2")) ? "Moyen" : "Difficile")), imageViewsLogoGrille, ((strID.equals("1")) ? arrVoituresFacile : ((strID.equals("2")) ? arrVoituresMoyen : arrVoituresDiff)), arrImageVoitures).show();
 			stage.close();
 		}
 	}
 
 	/**
 	 *
-	 * @param i
+	 * @param i Difficulte du jeu. 1 = Facile, 2 = Moyen, 3 = Difficile
 	 */
 	private void lireFichierText(int i) {
 		BufferedReader brFichier = null;
@@ -349,7 +353,7 @@ public class MenuPrincipal extends Application {
 	}
 
 	/**
-	 * 
+	 *
 	 * @return
 	 */
 	private Font font() {

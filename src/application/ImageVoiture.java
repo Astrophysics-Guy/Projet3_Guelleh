@@ -37,7 +37,7 @@ public class ImageVoiture {
 		return strNomFichier;
 	}
 	/**
-	 * @param strTypeAuto the strTypeAuto to set
+	 * @param strNomFichier the strTypeAuto to set
 	 */
 	public void setStrNomFichier(String strNomFichier) {
 		this.strNomFichier = strNomFichier;
