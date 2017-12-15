@@ -248,10 +248,11 @@ public class MenuJeu extends Stage {
 								intPosY = Integer.parseInt(voiture.getStrPosY()),
 								intLongueur = Integer.parseInt(voiture.getStrLongueur());
 
+						// Les deplacements de voiture entrent dans une boucle infinie, c'est pourquoi je les ai mis en commentaires
 						if (voiture.getStrOrientation().equals("H")) { // Voiture horizontale
 
 							// Deplacement de la voiture vers la droite
-							if (intPosX+intLongueur < 6 && intGrilleConfigurationActuelle[intPosX+intLongueur][intPosY] == 0) {
+							/*if (intPosX+intLongueur < 6 && intGrilleConfigurationActuelle[intPosX+intLongueur][intPosY] == 0) {
 								//System.out.println(voiture);
 								voiture.setStrPosX(Integer.toString(intPosX+1));
 								for (int m = 0; m < intLongueur; m++) {
@@ -263,10 +264,10 @@ public class MenuJeu extends Stage {
 								afficherGrille(intGrilleConfigurationActuelle);
 
 								listConfiguration.addLast(new Configuration(intGrilleConfigurationActuelle, configurationClone.getArrVoitures(), voiture, 1, configuration));
-							}
+							}*/
 
 							// Deplacement de la voiture vers la gauche
-							if (intPosX-1 >= 0 && intGrilleConfigurationActuelle[intPosX-1][intPosY] == 0) {
+							/*if (intPosX-1 >= 0 && intGrilleConfigurationActuelle[intPosX-1][intPosY] == 0) {
 								//System.out.println(voiture);
 								voiture.setStrPosX(Integer.toString(intPosX-1));
 								for (int m = 0; m < intLongueur; m++) {
@@ -278,11 +279,11 @@ public class MenuJeu extends Stage {
 								afficherGrille(intGrilleConfigurationActuelle);
 
 								listConfiguration.addLast(new Configuration(intGrilleConfigurationActuelle, configurationClone.getArrVoitures(), voiture, -1, configuration));
-							}
+							}*/
 						}
 						else { // Voiture verticale
 							// Deplacement de la voiture vers le haut
-							if (intPosY-1 >= 0 && intGrilleConfigurationActuelle[intPosX][intPosY-1] == 0) {
+							/*if (intPosY-1 >= 0 && intGrilleConfigurationActuelle[intPosX][intPosY-1] == 0) {
 								//System.out.println(voiture);
 								voiture.setStrPosY(Integer.toString(intPosY-1));
 								for (int m = 0; m < intLongueur; m++) {
@@ -294,10 +295,10 @@ public class MenuJeu extends Stage {
 								afficherGrille(intGrilleConfigurationActuelle);
 
 								listConfiguration.addLast(new Configuration(intGrilleConfigurationActuelle, configurationClone.getArrVoitures(), voiture, -1, configuration));
-							}
+							}*/
 
 							// Deplacement de la voiture vers le bas
-							if (intPosY+intLongueur < 6 && intGrilleConfigurationActuelle[intPosX][intPosY+intLongueur] == 0) {
+							/*if (intPosY+intLongueur < 6 && intGrilleConfigurationActuelle[intPosX][intPosY+intLongueur] == 0) {
 								//System.out.println(voiture);
 								voiture.setStrPosY(Integer.toString(intPosY+1));
 								for (int m = 0; m < intLongueur; m++) {
@@ -309,7 +310,7 @@ public class MenuJeu extends Stage {
 								afficherGrille(intGrilleConfigurationActuelle);
 
 								listConfiguration.addLast(new Configuration(intGrilleConfigurationActuelle, configurationClone.getArrVoitures(), voiture, 1, configuration));
-							}
+							}*/
 						}
 					}
 				}
