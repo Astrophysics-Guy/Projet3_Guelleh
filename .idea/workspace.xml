@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35ce1c7-f0df-4638-ae52-4da27e663ca8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/Configuration.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/Configuration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$1.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$enterMousEvent.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$enterMousEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$exitMousEvent.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$exitMousEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$actionMouseEvent.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$actionMouseEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$enterMouseEvent.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$enterMouseEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$exitMouseEvent.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$exitMouseEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal.class" afterPath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal.class" />
+    <list default="true" id="c35ce1c7-f0df-4638-ae52-4da27e663ca8" name="Default" comment="More or less final">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/Configuration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/ImageVoiture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$enterMousEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu$exitMousEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuJeu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$actionMouseEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$enterMouseEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal$exitMouseEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/MenuPrincipal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet3_Guelleh/application/Voiture.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/Configuration.java" afterPath="$PROJECT_DIR$/src/Donnees/Configuration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/ImageVoiture.java" afterPath="$PROJECT_DIR$/src/Donnees/ImageVoiture.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/MenuJeu.java" afterPath="$PROJECT_DIR$/src/Interface/MenuJeu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/MenuPrincipal.java" afterPath="$PROJECT_DIR$/src/Interface/MenuPrincipal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/Voiture.java" afterPath="$PROJECT_DIR$/src/Donnees/Voiture.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/Configuration.java" afterPath="$PROJECT_DIR$/src/application/Configuration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/ImageVoiture.java" afterPath="$PROJECT_DIR$/src/application/ImageVoiture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/MenuJeu.java" afterPath="$PROJECT_DIR$/src/application/MenuJeu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/MenuPrincipal.java" afterPath="$PROJECT_DIR$/src/application/MenuPrincipal.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,50 +40,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MenuPrincipal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/MenuPrincipal.java">
+        <entry file="file://$PROJECT_DIR$/src/Interface/MenuPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="272" column="24" lean-forward="false" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuJeu.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/application/MenuJeu.java">
+      <file leaf-file-name="MenuJeu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Interface/MenuJeu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1569">
-              <caret line="316" column="30" lean-forward="false" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
+            <state relative-caret-position="-3624">
+              <caret line="266" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
               <folding>
-                <element signature="method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
+                <element signature="docComment;class#enterMousEvent#0;class#MenuJeu#0" expanded="false" />
                 <element signature="docComment;class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
                 <element signature="class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
                 <element signature="docComment;method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
                 <element signature="method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
                 <element signature="docComment;method#background#0;class#MenuJeu#0" expanded="false" />
+                <element signature="method#background#0;class#MenuJeu#0" expanded="false" />
                 <element signature="docComment;method#background#1;class#MenuJeu#0" expanded="false" />
+                <element signature="method#background#1;class#MenuJeu#0" expanded="false" />
                 <element signature="docComment;method#border#0;class#MenuJeu#0" expanded="false" />
+                <element signature="method#border#0;class#MenuJeu#0" expanded="false" />
                 <element signature="docComment;method#font#0;class#MenuJeu#0" expanded="false" />
                 <element signature="docComment;field#runnable#0;class#MenuJeu#0" expanded="false" />
-                <element signature="e#18053#18716#0" expanded="false" />
-                <element signature="method#cloneConfiguration#0;class#MenuJeu#0" expanded="false" />
-                <marker date="1513223734864" expanded="false" signature="12685:12763" ph="/**...*/" />
-                <marker date="1513223734864" expanded="false" signature="15657:15736" ph="/**...*/" />
-                <marker date="1513223734864" expanded="false" signature="17109:17281" ph="{...}" />
-                <marker date="1513223734864" expanded="false" signature="17434:17523" ph="{...}" />
-                <marker date="1513223734864" expanded="false" signature="17656:17851" ph="{...}" />
-                <marker date="1513223734864" expanded="false" signature="17916:17921" ph=" { " />
-                <marker date="1513223734864" expanded="false" signature="17968:17971" ph=" }" />
+                <element signature="e#18471#19134#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/Configuration.java">
+        <entry file="file://$PROJECT_DIR$/src/Donnees/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +88,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Voiture.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/Voiture.java">
+      <file leaf-file-name="ImageVoiture.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Donnees/ImageVoiture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Voiture.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Donnees/Voiture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -146,11 +158,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/application/ImageVoiture.java" />
-        <option value="$PROJECT_DIR$/src/application/Configuration.java" />
-        <option value="$PROJECT_DIR$/src/application/MenuPrincipal.java" />
-        <option value="$PROJECT_DIR$/src/application/Voiture.java" />
         <option value="$PROJECT_DIR$/src/application/MenuJeu.java" />
+        <option value="$PROJECT_DIR$/src/application/MenuPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/application/ImageVoiture.java" />
+        <option value="$PROJECT_DIR$/src/application/Voiture.java" />
+        <option value="$PROJECT_DIR$/src/application/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/Interface/MenuPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/Interface/MenuJeu.java" />
       </list>
     </option>
   </component>
@@ -175,10 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,13 +212,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="com.widerwille.afterglow.AfterglowConfigurable" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -229,10 +243,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="application.MenuPrincipal" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="Interface.MenuPrincipal" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -347,24 +361,24 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24010417" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26302084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -376,6 +390,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="More or less final" />
+    <option name="LAST_COMMIT_MESSAGE" value="More or less final" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -383,7 +401,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/application/MenuPrincipal.java">
+    <entry file="file://$PROJECT_DIR$/src/Interface/MenuPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5880">
+          <caret line="272" column="24" lean-forward="false" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Donnees/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Donnees/Voiture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/MenuJeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9576">
+          <caret line="399" column="117" lean-forward="false" selection-start-line="399" selection-start-column="117" selection-end-line="399" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;class#enterMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#background#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#background#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#background#1;class#MenuJeu#0" expanded="false" />
+            <element signature="method#background#1;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#border#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#border#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#font#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;field#runnable#0;class#MenuJeu#0" expanded="false" />
+            <element signature="e#18471#19134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/MenuPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6336">
           <caret line="264" column="32" lean-forward="false" selection-start-line="264" selection-start-column="32" selection-end-line="264" selection-end-column="32" />
@@ -391,30 +460,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/MenuJeu.java">
+    <entry file="file://$PROJECT_DIR$/src/Interface/MenuJeu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2880">
           <caret line="120" column="12" lean-forward="false" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
           <folding>
-            <element signature="method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;class#enterMousEvent#0;class#MenuJeu#0" expanded="false" />
             <element signature="docComment;class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
             <element signature="class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
             <element signature="docComment;method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
             <element signature="method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
             <element signature="docComment;method#background#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#background#0;class#MenuJeu#0" expanded="false" />
             <element signature="docComment;method#background#1;class#MenuJeu#0" expanded="false" />
+            <element signature="method#background#1;class#MenuJeu#0" expanded="false" />
             <element signature="docComment;method#border#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#border#0;class#MenuJeu#0" expanded="false" />
             <element signature="docComment;method#font#0;class#MenuJeu#0" expanded="false" />
             <element signature="docComment;field#runnable#0;class#MenuJeu#0" expanded="false" />
-            <element signature="e#18053#18716#0" expanded="false" />
-            <element signature="method#cloneConfiguration#0;class#MenuJeu#0" expanded="false" />
-            <marker date="1513223734864" expanded="false" signature="12685:12763" ph="/**...*/" />
-            <marker date="1513223734864" expanded="false" signature="15657:15736" ph="/**...*/" />
-            <marker date="1513223734864" expanded="false" signature="17109:17281" ph="{...}" />
-            <marker date="1513223734864" expanded="false" signature="17434:17523" ph="{...}" />
-            <marker date="1513223734864" expanded="false" signature="17656:17851" ph="{...}" />
-            <marker date="1513223734864" expanded="false" signature="17916:17921" ph=" { " />
-            <marker date="1513223734864" expanded="false" signature="17968:17971" ph=" }" />
+            <element signature="e#18471#19134#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -431,72 +497,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/MenuPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/ImageVoiture.java">
+    <entry file="file://$PROJECT_DIR$/src/Interface/MenuJeu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="-3624">
+          <caret line="266" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
           <folding>
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;class#enterMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#background#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#background#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#background#1;class#MenuJeu#0" expanded="false" />
+            <element signature="method#background#1;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#border#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#border#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#font#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;field#runnable#0;class#MenuJeu#0" expanded="false" />
+            <element signature="e#18471#19134#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/MenuPrincipal.java">
+    <entry file="file://$PROJECT_DIR$/src/Donnees/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="272" column="24" lean-forward="false" selection-start-line="272" selection-start-column="24" selection-end-line="272" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/Voiture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/MenuJeu.java">
+    <entry file="file://$PROJECT_DIR$/src/Donnees/ImageVoiture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1569">
-          <caret line="316" column="30" lean-forward="false" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
-          <folding>
-            <element signature="method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
-            <element signature="class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
-            <element signature="method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#background#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#background#1;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#border#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#font#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;field#runnable#0;class#MenuJeu#0" expanded="false" />
-            <element signature="e#18053#18716#0" expanded="false" />
-            <element signature="method#cloneConfiguration#0;class#MenuJeu#0" expanded="false" />
-            <marker date="1513223734864" expanded="false" signature="12685:12763" ph="/**...*/" />
-            <marker date="1513223734864" expanded="false" signature="15657:15736" ph="/**...*/" />
-            <marker date="1513223734864" expanded="false" signature="17109:17281" ph="{...}" />
-            <marker date="1513223734864" expanded="false" signature="17434:17523" ph="{...}" />
-            <marker date="1513223734864" expanded="false" signature="17656:17851" ph="{...}" />
-            <marker date="1513223734864" expanded="false" signature="17916:17921" ph=" { " />
-            <marker date="1513223734864" expanded="false" signature="17968:17971" ph=" }" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Donnees/Voiture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
