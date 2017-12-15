@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c35ce1c7-f0df-4638-ae52-4da27e663ca8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Donnees/Configuration.java" afterPath="$PROJECT_DIR$/src/Donnees/Configuration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Donnees/ImageVoiture.java" afterPath="$PROJECT_DIR$/src/Donnees/ImageVoiture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Donnees/Voiture.java" afterPath="$PROJECT_DIR$/src/Donnees/Voiture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Interface/MenuJeu.java" afterPath="$PROJECT_DIR$/src/Interface/MenuJeu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Interface/MenuPrincipal.java" afterPath="$PROJECT_DIR$/src/Interface/MenuPrincipal.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuJeu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MenuJeu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Interface/MenuJeu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3624">
-              <caret line="266" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
+            <state relative-caret-position="3312">
+              <caret line="433" column="52" lean-forward="false" selection-start-line="433" selection-start-column="52" selection-end-line="433" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
@@ -85,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Voiture.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Voiture.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Donnees/Voiture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="240">
               <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
@@ -356,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513308655224</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More or less final">
+      <created>1513308861181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513308861181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -512,31 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interface/MenuJeu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3624">
-          <caret line="266" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;class#enterMousEvent#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
-            <element signature="class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
-            <element signature="method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#background#0;class#MenuJeu#0" expanded="false" />
-            <element signature="method#background#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#background#1;class#MenuJeu#0" expanded="false" />
-            <element signature="method#background#1;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#border#0;class#MenuJeu#0" expanded="false" />
-            <element signature="method#border#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;method#font#0;class#MenuJeu#0" expanded="false" />
-            <element signature="docComment;field#runnable#0;class#MenuJeu#0" expanded="false" />
-            <element signature="e#18471#19134#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Donnees/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -565,9 +542,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Donnees/Voiture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="240">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/MenuJeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="433" column="52" lean-forward="false" selection-start-line="433" selection-start-column="52" selection-end-line="433" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#vBoxDroite#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;class#enterMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="class#exitMousEvent#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#fermerProgramme#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#background#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#background#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#background#1;class#MenuJeu#0" expanded="false" />
+            <element signature="method#background#1;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#border#0;class#MenuJeu#0" expanded="false" />
+            <element signature="method#border#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;method#font#0;class#MenuJeu#0" expanded="false" />
+            <element signature="docComment;field#runnable#0;class#MenuJeu#0" expanded="false" />
+            <element signature="e#18471#19134#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
