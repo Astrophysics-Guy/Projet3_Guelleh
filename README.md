@@ -1,3 +1,3 @@
-# Médiathèque
+# Rush Hour
 
-Médiathèque programmer en java
+Jeu Rush Hour programmer en java
